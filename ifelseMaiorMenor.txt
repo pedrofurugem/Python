@@ -1,0 +1,50 @@
+maior e menor valor em loops
+
+maior = menor = 0
+
+if cont == 1: 
+        maior = n
+        menor = n
+    else: 
+        if n > maior: 
+            maior = n
+        if n < menor: 
+            menor = n
+
+
+if cont == 1:
+        maior = n
+        menor = n
+    else:
+        if n > maior:
+            maior = n
+        elif n < menor:
+
+econtrar algo específico como por exemplo nome no maior e nome no menor
+    
+   encontar nome no maior
+
+   exemplo:
+     if c == 1 and sexo in 'Mn': 
+        maior = idade 
+        nomeVelho = nome
+
+
+   encontrar nome no menor
+
+    exemplo:
+    contPreco += 1
+
+     if contPreco == 1 or preco < menor:
+        menor = preco 
+        nomeProdutoBarato = produto
+    #ou
+    '''if contPreco == 1:
+        menor = preco 
+        nomeProdutoBarato = produto'''
+    '''else: 
+        if preco < menor:
+           menor = preco
+           nomeProdutoBarato = produto'''
+    
+

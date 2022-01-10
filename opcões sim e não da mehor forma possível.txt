@@ -1,0 +1,27 @@
+while True:
+        opcao = str(input('Quer continuar [S/N]: ')).upper().strip()[0]
+        if opcao in 'SN':
+            break
+        print('ERRO! digite S OU N')
+    if opcao in 'N':
+        break
+
+
+ while True:
+        opcao = str(input('Quer continuar?[S/N]: ')).upper().strip()[0]
+        if opcao in 'SN':
+            break
+        print('Erro! Responda apenas S ou N')
+    if opcao == 'N': 
+        break
+
+
+------------UMA OUTRA FORMA de fazer contador
+
+if i < f:
+        cont = i
+        while cont <= f:
+            print(f'{cont}', end=' ', flush=True) #lembrar do flus
+            sleep(0.5)
+            cont += p
+        print('FIM!')

@@ -1,0 +1,26 @@
+imports do python
+
+random - numeros randomicos
+from random import randint
+
+time
+from time import sleep
+
+uma forma de fazer contador com while
+
+n = int(input('digite um número para calcular o fatorial: ')) 
+cont = n  # associar a vriável ao contador
+while cont > 0:
+    print(cont)
+
+o número de termos sempre recebe o primeiro termo
+e precisamos de um contador
+
+
+t = a1    # o numero de termos recebe o primeiro termo
+cont = 1  # precisamos de um contador
+while cont <= 10: 
+    print(t, end=' ')
+    t = t + r
+    cont += 1
+
